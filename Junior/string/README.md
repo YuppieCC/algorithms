@@ -53,4 +53,38 @@ return 2.
 
 Note: You may assume the string contain only lowercase letters.
 
+## Valid Anagram
+
+Given two strings s and t , write a function to determine if t is an anagram of s.
+```
+Example 1:
+Input: s = "anagram", t = "nagaram"
+Output: true
+```
+```
+Example 2:
+Input: s = "rat", t = "car"
+Output: false
+```
+
+Note: You may assume the string contains only lowercase alphabets.
+Follow up: What if the inputs contain unicode characters? How would you adapt your solution to such case?
+
+## Valid Palindrome
+
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
+Note: For the purpose of this problem, we define empty string as valid palindrome.
+
+```
+Example 1:
+Input: "A man, a plan, a canal: Panama"
+Output: true
+```
+```
+Example 2:
+Input: "race a car"
+Output: false
+```
+
 
