@@ -134,3 +134,54 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
              Thefore INT_MIN (−231) is returned.
 ```
 
+## Implement strStr()
+
+Implement strStr().
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+```
+Example 1:
+Input: haystack = "hello", needle = "ll"
+Output: 2
+```
+```
+Example 2:
+Input: haystack = "aaaaa", needle = "bba"
+Output: -1
+```
+
+Clarification:
+
+What should we return when needle is an empty string? This is a great question to ask during an interview.
+For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's `strstr()` and Java's `indexOf()`.
+
+
+## Count and Say
+
+The count-and-say sequence is the sequence of integers with the first five terms as following:
+```
+1.     1
+2.     11
+3.     21
+4.     1211
+5.     111221
+```
+
+* `1` is read off as `"one 1"` or `11`.
+* `11` is read off as `"two 1s"` or `21`.
+* `21` is read off as `"one 2, then one 1"` or `1211`.
+
+>Given an integer n where 1 ≤ n ≤ 30, generate the nth term of the count-and-say sequence.
+Note: Each term of the sequence of integers will be represented as a string.
+
+```
+Example 1:
+Input: 1
+Output: "1"
+```
+```
+Example 2:
+Input: 4
+Output: "1211"
+```
+
+
